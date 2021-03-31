@@ -46,6 +46,7 @@ export class CarDetailComponent implements OnInit {
   }
 
   sliderItemActive(index: number){
+    
     if(index === 0){
       return "carousel-item active";
     }

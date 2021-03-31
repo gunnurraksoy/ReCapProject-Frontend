@@ -17,6 +17,7 @@ export class CarDetailComponent implements OnInit {
   dataLoaded = false;
   currentImage:CarImage;
   
+  
 
   constructor(private carService: CarService,
     private carImageService:CarImageService,
